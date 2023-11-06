@@ -1,0 +1,31 @@
+/*general*/
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+    display: block;
+}
+
+/*header*/
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px 15px 100px;
+}
+.logo{
+    padding top: 11px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu{
+    display: flex;
+    gap: 25px;
+    margin-right: 37px;
+}
